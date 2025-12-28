@@ -31,7 +31,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Wanstead, E11',
             type: 'residential',
             year: '2024',
-            image: 'https://images.unsplash.com/photo-1632759145351-1d592919f522?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-roof-tile.jpg',
             description: 'Full strip and re-tile of a Victorian residence using traditional clay tiles.',
         },
         {
@@ -40,7 +40,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Ilford, IG1',
             type: 'residential',
             year: '2024',
-            image: 'https://images.unsplash.com/photo-1679039937725-79012f5a904e?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-chimney-repairs.jpg',
             description: 'Complete chimney stack rebuild and lead flashing for a heritage property.',
         },
         {
@@ -49,7 +49,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Stratford, E15',
             type: 'commercial',
             year: '2024',
-            image: 'https://images.unsplash.com/photo-1640476750068-72c645e653cd?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-flat-roof.jpg',
             description: 'Installation of a high-performance EPDM rubber flat roof system.',
         },
         {
@@ -58,7 +58,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Romford, RM1',
             type: 'residential',
             year: '2023',
-            image: 'https://images.unsplash.com/photo-1635359800970-90b35af94a4a?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-gutter-repairs.jpg',
             description: 'Complete replacement of gutters and downspouts for a detached house.',
         },
         {
@@ -67,7 +67,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Epping, CM16',
             type: 'residential',
             year: '2023',
-            image: 'https://images.unsplash.com/photo-1633759593085-1eaeb724fc88?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-slate-roof.jpg',
             description: 'Expert slate repair and valley replacement for a rural cottage.',
         },
         {
@@ -76,7 +76,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Walthamstow, E17',
             type: 'commercial',
             year: '2023',
-            image: 'https://media.istockphoto.com/id/2213095863/photo/gutter-guard-on-rain-gutter.webp?a=1&b=1&s=612x612&w=0&k=20&c=R8VSKzVt9PY-m8cH5765oXykq35QNgSbcOQfP00hvL8=',
+            image: '/images/service-guttering-systems.jpg',
             description: 'Industrial-grade guttering system installation for a warehouse unit.',
         },
         {
@@ -85,7 +85,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Woodford, IG8',
             type: 'residential',
             year: '2024',
-            image: 'https://media.istockphoto.com/id/901964116/photo/metal-roof-with-rain-gutter-pipeline-system-and-holders.webp?a=1&b=1&s=612x612&w=0&k=20&c=1KpBgpOmb1E8W3bOiFiEz2oXW-pzQAXtxfT1Zl-ivtI=',
+            image: '/images/service-lead-valleys.jpg',
             description: 'Installation of traditional lead valleys on a multi-pitched roof.',
         },
         {
@@ -94,7 +94,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Brentwood, CM14',
             type: 'residential',
             year: '2023',
-            image: 'https://images.unsplash.com/photo-1605450099279-533bd3ce379a?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-tiled-roof.jpg',
             description: 'Specialist tile matching and repair after storm damage.',
         },
         {
@@ -103,7 +103,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Enfield, EN1',
             type: 'commercial',
             year: '2023',
-            image: 'https://images.unsplash.com/photo-1655987639288-2ab1b26df093?w=800&auto=format&fit=crop&q=60',
+            image: '/images/bento-chimney-work.jpg',
             description: 'Annual maintenance and cleaning for a retail park complex.',
         },
         {
@@ -112,7 +112,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Buckhurst Hill, IG9',
             type: 'residential',
             year: '2024',
-            image: 'https://media.istockphoto.com/id/1161429528/photo/photo-of-toolbelt-with-instrument-and-nail-gun-lying-on-asphalt-or-bitumen-shingle-on-top-of.webp?a=1&b=1&s=612x612&w=0&k=20&c=z1YKdyZHmFHF_bauEi2BkFZ1izZnoZ-RtiZApCu29_M=',
+            image: '/images/project-bay-window.jpg',
             description: 'New felt roofing for a bay window with decorative lead flashing.',
         },
         {
@@ -121,7 +121,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Basildon, SS14',
             type: 'residential',
             year: '2024',
-            image: 'https://images.unsplash.com/photo-1559836513-6d09f0d49ec8?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-zinc-valleys.jpg',
             description: 'Modern zinc valley installation for superior water channeling.',
         },
         {
@@ -130,7 +130,7 @@ const ProjectsPage: React.FC = () => {
             location: 'Loughton, IG10',
             type: 'residential',
             year: '2023',
-            image: 'https://images.unsplash.com/photo-1759772238808-6ce358fab418?w=800&auto=format&fit=crop&q=60',
+            image: '/images/bento-completed-houses.jpg',
             description: 'Complete roof replacement including new felt, battens, and concrete tiles.',
         },
     ];
@@ -151,7 +151,7 @@ const ProjectsPage: React.FC = () => {
             <section className="relative w-full py-16 sm:py-24 md:py-32 lg:py-40 px-4 md:px-6 overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://images.unsplash.com/photo-1520183802803-06f731a2059f?w=1600&auto=format&fit=crop&q=80"
+                        src="/images/bento-completed-houses.jpg"
                         alt="Our portfolio of roofing projects in East London"
                         className="w-full h-full object-cover"
                     />

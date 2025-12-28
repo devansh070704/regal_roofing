@@ -87,7 +87,7 @@ const ContactPage: React.FC = () => {
         },
         {
             question: "Are you licensed and insured?",
-            answer: "Absolutely. We are fully licensed, bonded, and insured in the state of Washington. We carry both liability and workers' compensation insurance for your protection."
+            answer: "Absolutely. We are CORC certified, fully insured with £10M public liability cover, and carry employers' liability insurance. All our operatives are fully trained and certified."
         },
         {
             question: "How long does a roof replacement take?",
@@ -95,7 +95,7 @@ const ContactPage: React.FC = () => {
         },
         {
             question: "What warranties do you offer?",
-            answer: "We offer industry-leading warranties, including a lifetime manufacturing warranty on materials and our own 10-year workmanship guarantee. Since we are certified installers, our warranties are backed by the manufacturers."
+            answer: "We provide comprehensive guarantees on all our work, with manufacturer warranties on materials. As CORC certified roofers, our workmanship guarantees are backed by industry standards ensuring peace of mind."
         },
         {
             question: "Do you offer financing?",
@@ -115,7 +115,7 @@ const ContactPage: React.FC = () => {
             <section className="relative w-full py-16 sm:py-24 md:py-32 lg:py-40 px-4 md:px-6 overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://images.unsplash.com/photo-1635424709845-3a85ad5e1f5e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cm9vZmluZ3xlbnwwfHwwfHx8MA%3D%3D"
+                        src="/images/homepage-hero-uk.jpg"
                         alt="Contact Elite Roofing"
                         className="w-full h-full object-cover brightness-[0.25]"
                     />

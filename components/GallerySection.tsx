@@ -14,31 +14,31 @@ const galleryItems: GalleryProject[] = [
     id: 1,
     title: "Residential Tile Roof Restoration",
     location: "Wanstead, East London",
-    image: "https://images.unsplash.com/photo-1643509963821-563d2ddb0812?w=800&auto=format&fit=crop&q=60"
+    image: "/images/bento-completed-houses.jpg"
   },
   {
     id: 2,
     title: "Flat Roof Replacement",
     location: "Ilford, Essex",
-    image: "https://images.unsplash.com/photo-1635424709870-cdc6e64f0e20?w=800&auto=format&fit=crop&q=60"
+    image: "/images/bento-flat-roof.jpg"
   },
   {
     id: 3,
     title: "Commercial Flat Roofing",
     location: "Chigwell, Essex",
-    image: "https://images.unsplash.com/photo-1726589004565-bedfba94d3a2?w=800&auto=format&fit=crop&q=60"
+    image: "/images/service-flat-roof.jpg"
   },
   {
     id: 4,
     title: "Complete Guttering System",
     location: "Loughton, Essex",
-    image: "https://images.unsplash.com/photo-1635424824849-1b09bdcc55b1?w=800&auto=format&fit=crop&q=60"
+    image: "/images/service-guttering-systems.jpg"
   },
   {
     id: 5,
     title: "Heritage Tile Roof Repair",
     location: "Brentwood, Essex",
-    image: "https://images.unsplash.com/photo-1643509867448-57001e0c333d?w=800&auto=format&fit=crop&q=60"
+    image: "/images/bento-chimney-work.jpg"
   }
 ];
 

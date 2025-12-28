@@ -72,7 +72,7 @@ const AboutPage: React.FC = () => {
             <section className="relative w-full py-16 sm:py-24 md:py-32 lg:py-40 px-4 md:px-6 overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://media.istockphoto.com/id/648964182/photo/worker-attaching-aluminum-rain-gutter-to-fascia-of-house.webp?a=1&b=1&s=612x612&w=0&k=20&c=mTyU-c0Wajn4wHKYzsZsBUWdEDLrqXo4V41rI-Xu2XQ="
+                        src="/images/homepage-hero-uk.jpg"
                         alt="Regal Roofing team at work"
                         className="w-full h-full object-cover"
                     />
@@ -210,7 +210,7 @@ const AboutPage: React.FC = () => {
                         >
                             <div className="aspect-[4/3] rounded-3xl overflow-hidden">
                                 <img
-                                    src="https://media.istockphoto.com/id/1186718516/photo/problem-areas-for-house-asphalt-shingles-corner-roofing-construction-waterproofing-repair.webp?a=1&b=1&s=612x612&w=0&k=20&c=lV61zgUEk9rQ-y0sr62Dr1NbB7dALgSa3M13VQAGz6o="
+                                    src="/images/bento-slate-roof.jpg"
                                     alt="Roofing work in progress"
                                     className="w-full h-full object-cover"
                                 />

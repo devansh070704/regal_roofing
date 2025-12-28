@@ -30,70 +30,70 @@ const ServicesPage: React.FC = () => {
             title: 'Chimney Repairs',
             description: 'Expert stack rebuilding, repointing, and leadwork to ensure structural integrity and prevent leaks.',
             features: ['Stack Rebuilding', 'Repointing', 'Leadwork', 'Leak Prevention'],
-            image: 'https://images.unsplash.com/photo-1679039937725-79012f5a904e?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-chimney-repairs.jpg',
         },
         {
             icon: Droplets,
             title: 'Flat Roof Repairs',
             description: 'Specialist repairs for all flat roof systems using modern materials for long-lasting protection.',
             features: ['EPDM', 'GPR', 'Felt Roofing', 'Refurbishment'],
-            image: 'https://images.unsplash.com/photo-1640476750068-72c645e653cd?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-flat-roof.jpg',
         },
         {
             icon: Wrench,
             title: 'Gutter Repairs',
             description: 'Fast and reliable fixes for leaks, sags, and damage to maintain effective water flow.',
             features: ['Leak Fixing', 'Realignment', 'Part Replacement', 'Seal Checks'],
-            image: 'https://images.unsplash.com/photo-1635359800970-90b35af94a4a?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-gutter-repairs.jpg',
         },
         {
             icon: Settings,
             title: 'Guttering Systems',
             description: 'Complete installation of high-quality, modern guttering systems designed for durability.',
             features: ['Full Installation', 'uPVC Systems', 'Cast Iron Look', 'Fascia Integration'],
-            image: 'https://media.istockphoto.com/id/2213095863/photo/gutter-guard-on-rain-gutter.webp?a=1&b=1&s=612x612&w=0&k=20&c=R8VSKzVt9PY-m8cH5765oXykq35QNgSbcOQfP00hvL8=',
+            image: '/images/service-guttering-systems.jpg',
         },
         {
             icon: Home,
             title: 'Roof Tile Repairs',
             description: 'Precision replacement of broken or missing tiles to restore the beauty and function of your roof.',
             features: ['Tile Matching', 'Individual Replaces', 'Batten Repairs', 'Ridge Tiling'],
-            image: 'https://images.unsplash.com/photo-1605450099279-533bd3ce379a?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-roof-tile.jpg',
         },
         {
             icon: Building2,
             title: 'Slate Roof Repairs',
             description: 'Specialized restoration and repair of traditional slate roofs maintaining original character.',
             features: ['Natural Slate', 'Synthetic Slate', 'Leadwork', 'Heritage Repairs'],
-            image: 'https://images.unsplash.com/photo-1633759593085-1eaeb724fc88?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-slate-roof.jpg',
         },
         {
             icon: Shield,
             title: 'Tiled Roof Repairs',
             description: 'Comprehensive repairs for pitched tiled roofs ensuring complete weather protection.',
             features: ['Full Restoration', 'Valley Repairs', 'Dry Verge', 'Dry Ridge'],
-            image: 'https://images.unsplash.com/photo-1759772238808-6ce358fab418?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-tiled-roof.jpg',
         },
         {
             icon: Building,
             title: 'New Zinc Valleys',
             description: 'Expert installation of zinc valleys providing superior durability and aesthetic appeal.',
             features: ['Zinc Work', 'Water Channeling', 'Long Lasting', 'Bespoke Fit'],
-            image: 'https://images.unsplash.com/photo-1559836513-6d09f0d49ec8?w=800&auto=format&fit=crop&q=60',
+            image: '/images/service-zinc-valleys.jpg',
         },
         {
             icon: Clock,
             title: 'New Lead Valleys',
             description: 'Traditional lead valley installation ensuring perfectly watertight roof intersections.',
             features: ['Lead Welding', 'Durable Seals', 'Custom Work', 'Weatherproof'],
-            image: 'https://media.istockphoto.com/id/901964116/photo/metal-roof-with-rain-gutter-pipeline-system-and-holders.webp?a=1&b=1&s=612x612&w=0&k=20&c=1KpBgpOmb1E8W3bOiFiEz2oXW-pzQAXtxfT1Zl-ivtI=',
+            image: '/images/service-lead-valleys.jpg',
         },
         {
             icon: Wrench,
             title: 'New Lead Flashings',
             description: 'Professional lead flashing work for chimneys, walls, and joints to prevent water ingress.',
             features: ['Chimney Flashings', 'Wall Intersections', 'Step Flashings', 'Cover Flashings'],
-            image: 'https://media.istockphoto.com/id/901956902/photo/close-up-on-roof-gutter-holder-and-guttering-downspout-pipe-with-clay-tiles-roof-installing.webp?a=1&b=1&s=612x612&w=0&k=20&c=wqzQ6ad6qiVrgDd6v6DR2BnHOQhb3JJQD1e5TaDqFDs=',
+            image: '/images/service-lead-flashings.jpg',
         },
     ];
 
@@ -142,7 +142,7 @@ const ServicesPage: React.FC = () => {
             <section className="relative w-full py-16 sm:py-24 md:py-32 lg:py-40 px-4 md:px-6 overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://media.istockphoto.com/id/901956902/photo/close-up-on-roof-gutter-holder-and-guttering-downspout-pipe-with-clay-tiles-roof-installing.webp?a=1&b=1&s=612x612&w=0&k=20&c=wqzQ6ad6qiVrgDd6v6DR2BnHOQhb3JJQD1e5TaDqFDs="
+                        src="/images/service-flat-roof.jpg"
                         alt="Professional roofing services in East London"
                         className="w-full h-full object-cover"
                     />
@@ -286,14 +286,14 @@ const ServicesPage: React.FC = () => {
                                 Quality You Can Trust
                             </h2>
                             <p className="mt-6 text-slate-600 leading-relaxed">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl aliquet nunc. We combine decades of experience with the latest roofing technology to deliver exceptional results.
+                                With over 40 years of experience serving East London and Essex, we combine traditional craftsmanship with modern roofing techniques to deliver exceptional results that stand the test of time.
                             </p>
                             <div className="mt-8 space-y-4">
                                 <div className="flex items-start gap-4">
                                     <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0 mt-0.5" />
                                     <div>
-                                        <h4 className="font-bold text-black">Factory-Trained Installers</h4>
-                                        <p className="text-slate-500 text-sm">Our crews are certified by leading manufacturers like GAF, Owens Corning, and CertainTeed.</p>
+                                        <h4 className="font-bold text-black">CORC Certified Roofers</h4>
+                                        <p className="text-slate-500 text-sm">Our fully trained operatives are certified by the Confederation of Roofing Contractors, ensuring the highest standards of workmanship.</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4">
@@ -327,14 +327,14 @@ const ServicesPage: React.FC = () => {
                         >
                             <div className="aspect-[3/4] rounded-3xl overflow-hidden">
                                 <img
-                                    src="https://images.unsplash.com/photo-1655987639288-2ab1b26df093?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fENoaW1uZXklMjBSZXBhaXJ8ZW58MHx8MHx8fDA%3D"
+                                    src="/images/bento-chimney-work.jpg"
                                     alt="Roofing work"
                                     className="w-full h-full object-cover"
                                 />
                             </div>
                             <div className="aspect-[3/4] rounded-3xl overflow-hidden mt-8">
                                 <img
-                                    src="https://images.unsplash.com/photo-1743519525325-9ab6ae5882ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UmUtcm9vZmluZ3xlbnwwfHwwfHx8MA%3D%3D"
+                                    src="/images/bento-slate-roof.jpg"
                                     alt="Metal roofing"
                                     className="w-full h-full object-cover"
                                 />
