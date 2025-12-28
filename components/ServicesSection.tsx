@@ -14,49 +14,49 @@ const services: Service[] = [
     id: 0,
     title: "Chimney Repairs",
     description: "Expert stack rebuilding, repointing, and leadwork to ensure structural integrity and prevent leaks.",
-    image: "https://images.unsplash.com/photo-1679039937725-79012f5a904e?w=800&auto=format&fit=crop&q=60"
+    image: "/images/service-chimney-repairs.jpg"
   },
   {
     id: 1,
     title: "Flat Roof Repairs",
     description: "Specialist repairs for all flat roof systems using modern materials for long-lasting protection.",
-    image: "https://images.unsplash.com/photo-1640476750068-72c645e653cd?w=800&auto=format&fit=crop&q=60"
+    image: "/images/service-flat-roof.jpg"
   },
   {
     id: 2,
     title: "Gutter Repairs",
     description: "Fast and reliable fixes for leaks, sags, and damage to maintain effective water flow.",
-    image: "https://images.unsplash.com/photo-1635359800970-90b35af94a4a?w=800&auto=format&fit=crop&q=60"
+    image: "/images/service-gutter-repairs.jpg"
   },
   {
     id: 3,
     title: "Guttering Systems",
     description: "Complete installation of high-quality, modern guttering systems designed for durability.",
-    image: "https://media.istockphoto.com/id/2213095863/photo/gutter-guard-on-rain-gutter.webp?a=1&b=1&s=612x612&w=0&k=20&c=R8VSKzVt9PY-m8cH5765oXykq35QNgSbcOQfP00hvL8="
+    image: "/images/service-guttering-systems.jpg"
   },
   {
     id: 4,
     title: "Roof Tile Repairs",
     description: "Precision replacement of broken or missing tiles to restore the beauty and function of your roof.",
-    image: "https://images.unsplash.com/photo-1605450099279-533bd3ce379a?w=800&auto=format&fit=crop&q=60"
+    image: "/images/service-roof-tile.jpg"
   },
   {
     id: 5,
     title: "Slate Roof Repairs",
     description: "Specialized restoration and repair of traditional slate roofs maintaining original character.",
-    image: "https://images.unsplash.com/photo-1633759593085-1eaeb724fc88?w=800&auto=format&fit=crop&q=60"
+    image: "/images/service-slate-roof.jpg"
   },
   {
     id: 6,
     title: "Tiled Roof Repairs",
     description: "Comprehensive repairs for pitched tiled roofs ensuring complete weather protection.",
-    image: "https://images.unsplash.com/photo-1759772238808-6ce358fab418?w=800&auto=format&fit=crop&q=60"
+    image: "/images/service-tiled-roof.jpg"
   },
   {
     id: 7,
     title: "New Zinc Valleys",
     description: "Expert installation of zinc valleys providing superior durability and aesthetic appeal.",
-    image: "https://images.unsplash.com/photo-1559836513-6d09f0d49ec8?w=800&auto=format&fit=crop&q=60"
+    image: "/images/service-zinc-valleys.jpg"
   },
   {
     id: 8,
