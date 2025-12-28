@@ -133,7 +133,7 @@ const HomePage: React.FC = () => {
                         <BentoCard className="lg:col-span-8 h-[280px] sm:h-[360px] md:h-[420px] lg:h-[540px] group" accentColor="rgba(196, 30, 58, 0.1)">
                             <div className="absolute inset-0 overflow-hidden">
                                 <img
-                                    src="https://images.unsplash.com/photo-1632759145351-1d592919f522?w=1200&auto=format&fit=crop&q=80"
+                                    src="/images/homepage-hero-uk.jpg"
                                     className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105"
                                     alt="Regal Roofing team installing roof tiles in East London"
                                 />
@@ -144,7 +144,7 @@ const HomePage: React.FC = () => {
                         <BentoCard
                             className="lg:col-span-4 bg-[#111111] p-6 md:p-8 lg:p-12 flex flex-col justify-between border border-white/5 relative group overflow-hidden h-[280px] md:h-[320px] lg:h-auto"
                             accentColor="rgba(255, 255, 255, 0.05)"
-                            backgroundImage="https://images.unsplash.com/photo-1605450099279-533bd3ce379a?w=800&auto=format&fit=crop&q=60"
+                            backgroundImage="/images/bento-slate-roof.jpg"
                             backgroundOpacity={0.15}
                         >
                             <div className="absolute -right-20 -top-20 w-64 h-64 bg-white/5 rounded-full blur-3xl group-hover:bg-white/10 transition-colors duration-1000" />
@@ -169,7 +169,7 @@ const HomePage: React.FC = () => {
                                 className="col-span-1 lg:col-span-4 p-5 md:p-8 lg:p-12 h-[220px] sm:h-[260px] md:h-[320px] lg:h-[420px] flex flex-col justify-between text-white relative group overflow-hidden"
                                 style={{ backgroundColor: '#C41E3A' }}
                                 accentColor="rgba(255, 255, 255, 0.2)"
-                                backgroundImage="https://images.unsplash.com/photo-1633759593085-1eaeb724fc88?w=800&auto=format&fit=crop&q=60"
+                                backgroundImage="/images/bento-chimney-work.jpg"
                                 backgroundOpacity={0.35}
                                 backgroundBlendMode="multiply"
                             >
@@ -194,7 +194,7 @@ const HomePage: React.FC = () => {
                             <BentoCard
                                 className="col-span-1 lg:col-span-4 bg-[#0d0d0d] p-5 md:p-8 lg:p-12 h-[220px] sm:h-[260px] md:h-[320px] lg:h-[420px] flex flex-col justify-between text-white border border-white/5 relative group overflow-hidden"
                                 accentColor="rgba(196, 30, 58, 0.15)"
-                                backgroundImage="https://images.unsplash.com/photo-1635424709961-f3a150459ad4?w=800&auto=format&fit=crop&q=60"
+                                backgroundImage="/images/bento-flat-roof.jpg"
                                 backgroundOpacity={0.25}
                             >
                                 <div className="absolute inset-0 bg-gradient-to-br opacity-50 group-hover:opacity-100 transition-opacity" style={{ backgroundImage: 'linear-gradient(to bottom right, rgba(196, 30, 58, 0.1), transparent)' }} />
@@ -218,7 +218,7 @@ const HomePage: React.FC = () => {
                             <BentoCard
                                 className="col-span-2 lg:col-span-4 bg-[#f5f5f7] p-5 md:p-8 lg:p-12 h-[180px] sm:h-[220px] md:h-[280px] lg:h-[420px] flex flex-col justify-between relative group overflow-hidden"
                                 accentColor="rgba(34, 197, 94, 0.1)"
-                                backgroundImage="https://images.unsplash.com/photo-1643509963821-563d2ddb0812?w=800&auto=format&fit=crop&q=60"
+                                backgroundImage="/images/bento-completed-houses.jpg"
                                 backgroundOpacity={0.2}
                             >
                                 <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_top_right,rgba(34,197,94,0.05),transparent)] opacity-100" />

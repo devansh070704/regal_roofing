@@ -25,13 +25,33 @@ const ContactPage: React.FC = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
 
-    const handleSubmit = async (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         setIsSubmitting(true);
-        // Simulate API call
-        await new Promise(resolve => setTimeout(resolve, 1500));
-        setIsSubmitting(false);
-        setIsSuccess(true);
+
+        const form = e.currentTarget;
+        const formData = new FormData(form);
+
+        try {
+            const response = await fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+
+            if (data.success) {
+                setIsSubmitting(false);
+                setIsSuccess(true);
+                form.reset();
+            } else {
+                throw new Error(data.message || 'Submission failed');
+            }
+        } catch (error) {
+            setIsSubmitting(false);
+            console.error('Form submission error:', error);
+            alert('There was an error submitting your form. Please call us directly at 020 8989 2385');
+        }
     };
 
     const benefits = [
@@ -228,11 +248,18 @@ const ContactPage: React.FC = () => {
                                 </motion.div>
                             ) : (
                                 <form onSubmit={handleSubmit} className="space-y-5">
+                                    {/* Web3Forms Configuration */}
+                                    <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_API_KEY_HERE" />
+                                    <input type="hidden" name="subject" value="New Roofing Inquiry from Regal Roofing Website" />
+                                    <input type="hidden" name="from_name" value="Regal Roofing Website" />
+                                    {/* Spam protection */}
+                                    <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
                                     <div className="grid md:grid-cols-2 gap-5">
                                         <div>
                                             <label className="block text-sm font-medium text-slate-700 mb-2">Full Name *</label>
                                             <input
                                                 type="text"
+                                                name="name"
                                                 placeholder="John Smith"
                                                 required
                                                 className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 outline-none transition-all bg-white"
@@ -242,6 +269,7 @@ const ContactPage: React.FC = () => {
                                             <label className="block text-sm font-medium text-slate-700 mb-2">Phone Number *</label>
                                             <input
                                                 type="tel"
+                                                name="phone"
                                                 placeholder="020 8989 2385"
                                                 required
                                                 className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 outline-none transition-all bg-white"
@@ -252,13 +280,14 @@ const ContactPage: React.FC = () => {
                                         <label className="block text-sm font-medium text-slate-700 mb-2">Email Address</label>
                                         <input
                                             type="email"
+                                            name="email"
                                             placeholder="john@example.com"
                                             className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 outline-none transition-all bg-white"
                                         />
                                     </div>
                                     <div>
                                         <label className="block text-sm font-medium text-slate-700 mb-2">Service Needed</label>
-                                        <select className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 outline-none transition-all bg-white text-slate-600">
+                                        <select name="service" className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 outline-none transition-all bg-white text-slate-600">
                                             <option value="">Select a service...</option>
                                             {services.map((service) => (
                                                 <option key={service} value={service}>{service}</option>
@@ -268,6 +297,7 @@ const ContactPage: React.FC = () => {
                                     <div>
                                         <label className="block text-sm font-medium text-slate-700 mb-2">Message</label>
                                         <textarea
+                                            name="message"
                                             rows={4}
                                             placeholder="Tell us about your project..."
                                             className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 outline-none transition-all bg-white resize-none"
